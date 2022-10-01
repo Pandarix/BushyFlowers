@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "bushierflowers:block/vanilla/wither_rose/grown_wither_rose_1"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/wither_rose/grown_wither_rose_2"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/wither_rose/grown_wither_rose_3"
+      }
+    ]
+  }
+}

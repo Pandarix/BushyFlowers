@@ -19,7 +19,7 @@ public class GrowableFlower extends PlantBlock {
     //---------------------------Block Shape stuff---------------------------
 
     //The blocks outline shape
-    private static final VoxelShape SHAPE = Block.createCuboidShape(2, 0, 2, 14, 8, 14);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(3, 0, 3, 13, 10, 13);
     @Deprecated
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {

@@ -1,5 +1,15 @@
 {
   "variants": {
-    "": {"model":  "bushierflowers:block/vanilla/grown_poppy"}
+    "": [
+      {
+        "model": "bushierflowers:block/vanilla/poppy/grown_poppy_1"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/poppy/grown_poppy_2"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/poppy/grown_poppy_3"
+      }
+    ]
   }
 }

@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "bushierflowers:block/vanilla/dandelion/grown_dandelion_1"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/dandelion/grown_dandelion_2"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/dandelion/grown_dandelion_3"
+      }
+    ]
+  }
+}

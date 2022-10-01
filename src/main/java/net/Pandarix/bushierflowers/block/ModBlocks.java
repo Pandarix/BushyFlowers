@@ -1,7 +1,7 @@
 package net.Pandarix.bushierflowers.block;
 
 import net.Pandarix.bushierflowers.BushierFlowers;
-import net.Pandarix.bushierflowers.block.custom.GrowablePoppy;
+import net.Pandarix.bushierflowers.block.custom.*;
 import net.Pandarix.bushierflowers.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -18,10 +18,18 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     public static final Block GROWN_POPPY = registerBlock("grown_poppy", new GrowablePoppy(FabricBlockSettings.copy(Blocks.POPPY)), ModItemGroup.BUSHIER_FLOWERS);
-    public static final Block GROWN_RED_TULIP = registerBlock("grown_red_tulip", new Block(FabricBlockSettings.copy(Blocks.RED_TULIP)), ModItemGroup.BUSHIER_FLOWERS);
-    public static final Block GROWN_ORANGE_TULIP = registerBlock("grown_orange_tulip", new Block(FabricBlockSettings.copy(Blocks.ORANGE_TULIP)), ModItemGroup.BUSHIER_FLOWERS);
-    public static final Block GROWN_PINK_TULIP = registerBlock("grown_pink_tulip", new Block(FabricBlockSettings.copy(Blocks.PINK_TULIP)), ModItemGroup.BUSHIER_FLOWERS);
-    public static final Block GROWN_WHITE_TULIP = registerBlock("grown_white_tulip", new Block(FabricBlockSettings.copy(Blocks.WHITE_TULIP)), ModItemGroup.BUSHIER_FLOWERS);
+    public static final Block GROWN_RED_TULIP = registerBlock("grown_red_tulip", new GrowableRedTulip(FabricBlockSettings.copy(Blocks.RED_TULIP)), ModItemGroup.BUSHIER_FLOWERS);
+    public static final Block GROWN_ORANGE_TULIP = registerBlock("grown_orange_tulip", new GrowableOrangeTulip(FabricBlockSettings.copy(Blocks.ORANGE_TULIP)), ModItemGroup.BUSHIER_FLOWERS);
+    public static final Block GROWN_PINK_TULIP = registerBlock("grown_pink_tulip", new GrowablePinkTulip(FabricBlockSettings.copy(Blocks.PINK_TULIP)), ModItemGroup.BUSHIER_FLOWERS);
+    public static final Block GROWN_WHITE_TULIP = registerBlock("grown_white_tulip", new GrowableWhiteTulip(FabricBlockSettings.copy(Blocks.WHITE_TULIP)), ModItemGroup.BUSHIER_FLOWERS);
+    public static final Block GROWN_AZURE_BLUET = registerBlock("grown_azure_bluet", new GrowableAzureBluet(FabricBlockSettings.copy(Blocks.AZURE_BLUET)), ModItemGroup.BUSHIER_FLOWERS);
+    public static final Block GROWN_OXEYE_DAISY = registerBlock("grown_oxeye_daisy", new GrowableAzureBluet(FabricBlockSettings.copy(Blocks.OXEYE_DAISY)), ModItemGroup.BUSHIER_FLOWERS);
+    public static final Block GROWN_BLUE_ORCHID = registerBlock("grown_blue_orchid", new GrowableAzureBluet(FabricBlockSettings.copy(Blocks.BLUE_ORCHID)), ModItemGroup.BUSHIER_FLOWERS);
+    public static final Block GROWN_CORNFLOWER = registerBlock("grown_cornflower", new GrowableCornflower(FabricBlockSettings.copy(Blocks.CORNFLOWER)), ModItemGroup.BUSHIER_FLOWERS);
+    public static final Block GROWN_DANDELION = registerBlock("grown_dandelion", new GrowableDandelion(FabricBlockSettings.copy(Blocks.DANDELION)), ModItemGroup.BUSHIER_FLOWERS);
+    public static final Block GROWN_ALLIUM = registerBlock("grown_allium", new GrowableAllium(FabricBlockSettings.copy(Blocks.ALLIUM)), ModItemGroup.BUSHIER_FLOWERS);
+    public static final Block GROWN_WITHER_ROSE = registerBlock("grown_wither_rose", new GrowableWitherRose(FabricBlockSettings.copy(Blocks.WITHER_ROSE)), ModItemGroup.BUSHIER_FLOWERS);
+    public static final Block GROWN_LILY = registerBlock("grown_lily", new GrowableLily(FabricBlockSettings.copy(Blocks.LILY_OF_THE_VALLEY)), ModItemGroup.BUSHIER_FLOWERS);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);

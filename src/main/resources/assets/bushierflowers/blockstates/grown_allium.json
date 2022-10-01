@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "bushierflowers:block/vanilla/allium/grown_allium_1"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/allium/grown_allium_2"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/allium/grown_allium_3"
+      }
+    ]
+  }
+}

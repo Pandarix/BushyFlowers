@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "bushierflowers:block/vanilla/azure_bluet/grown_azure_bluet_1"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/azure_bluet/grown_azure_bluet_2"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/azure_bluet/grown_azure_bluet_3"
+      }
+    ]
+  }
+}

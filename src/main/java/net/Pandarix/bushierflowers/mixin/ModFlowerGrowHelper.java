@@ -23,8 +23,8 @@ import java.util.function.Supplier;
 
 @Mixin(BoneMealItem.class)
 public abstract class ModFlowerGrowHelper {
-    private static final List<Block> bushyflowers$validFlowers = Arrays.asList(Blocks.POPPY, Blocks.RED_TULIP, Blocks.ORANGE_TULIP, Blocks.PINK_TULIP, Blocks.WHITE_TULIP);
-    private final Supplier<List<Block>> bushyflowers$grownFlowers = Suppliers.memoize(() -> List.of(ModBlocks.GROWN_POPPY, ModBlocks.GROWN_RED_TULIP, ModBlocks.GROWN_ORANGE_TULIP, ModBlocks.GROWN_PINK_TULIP, ModBlocks.GROWN_WHITE_TULIP));
+    private static final List<Block> bushyflowers$validFlowers = Arrays.asList(Blocks.POPPY, Blocks.RED_TULIP, Blocks.ORANGE_TULIP, Blocks.PINK_TULIP, Blocks.WHITE_TULIP, Blocks.AZURE_BLUET, Blocks.OXEYE_DAISY, Blocks.BLUE_ORCHID, Blocks.CORNFLOWER, Blocks.DANDELION, Blocks.ALLIUM, Blocks.WITHER_ROSE, Blocks.LILY_OF_THE_VALLEY);
+    private final Supplier<List<Block>> bushyflowers$grownFlowers = Suppliers.memoize(() -> List.of(ModBlocks.GROWN_POPPY, ModBlocks.GROWN_RED_TULIP, ModBlocks.GROWN_ORANGE_TULIP, ModBlocks.GROWN_PINK_TULIP, ModBlocks.GROWN_WHITE_TULIP, ModBlocks.GROWN_AZURE_BLUET, ModBlocks.GROWN_OXEYE_DAISY, ModBlocks.GROWN_BLUE_ORCHID, ModBlocks.GROWN_CORNFLOWER, ModBlocks.GROWN_DANDELION, ModBlocks.GROWN_ALLIUM, ModBlocks.GROWN_WITHER_ROSE, ModBlocks.GROWN_LILY));
 
     //injecting this method into the Bonemeal Blockinteraction
     @Inject(method = "useOnBlock", at = @At("HEAD"))

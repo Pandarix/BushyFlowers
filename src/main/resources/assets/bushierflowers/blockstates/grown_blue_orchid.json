@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "bushierflowers:block/vanilla/blue_orchid/grown_blue_orchid_1"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/blue_orchid/grown_blue_orchid_2"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/blue_orchid/grown_blue_orchid_3"
+      }
+    ]
+  }
+}
