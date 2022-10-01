@@ -11,6 +11,7 @@ import net.minecraft.particle.ParticleTypes;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -30,18 +31,22 @@ public abstract class ModFlowerGrowHelper {
     protected void injectWriteMethod(ItemUsageContext context, CallbackInfoReturnable info) {
         //testing if the clicked Block is a Block our mod will want to replace
         if (bushyflowers$validFlowers.contains(context.getWorld().getBlockState(context.getBlockPos()).getBlock())) {
-            World world = context.getWorld();
+            World bushyflowers$world = context.getWorld();
+            BlockPos bushyflowers$blockPos = context.getBlockPos();
             //only execute if we are on Server Level to prevent syncing issues
-            if (!world.isClient()) {
-                BlockPos bushyflowers$blockPos = context.getBlockPos(); //position of targeted Block
-
+            if (!bushyflowers$world.isClient()) {
                 //getting the grown flower block that corresponds to the flower in question
-                Block bushyflowers$correspondingFlower = bushyflowers$grownFlowers.get().get(bushyflowers$validFlowers.indexOf(world.getBlockState(bushyflowers$blockPos).getBlock()));
+                Block bushyflowers$correspondingFlower = bushyflowers$grownFlowers.get().get(bushyflowers$validFlowers.indexOf(bushyflowers$world.getBlockState(bushyflowers$blockPos).getBlock()));
                 //replacing the Vanilla flower with our custom Mod variant
-                world.setBlockState(bushyflowers$blockPos, bushyflowers$correspondingFlower.getDefaultState());
+                bushyflowers$world.setBlockState(bushyflowers$blockPos, bushyflowers$correspondingFlower.getDefaultState());
                 //additional Sounds and Particles
-                world.playSound(null, (double)bushyflowers$blockPos.getX() + 0.5, (double)bushyflowers$blockPos.getY() + 0.5, (double)bushyflowers$blockPos.getZ() + 0.5, SoundEvents.ITEM_BONE_MEAL_USE, SoundCategory.BLOCKS, 1.0F, 1.0F);
-                world.addParticle(ParticleTypes.HAPPY_VILLAGER, (double)bushyflowers$blockPos.getX() + 0.5, (double)bushyflowers$blockPos.getY() + 0.5, (double)bushyflowers$blockPos.getZ() + 0.5, 0.0, 0.0, 0.0);
+                bushyflowers$world.playSound(null, (double)bushyflowers$blockPos.getX() + 0.5, (double)bushyflowers$blockPos.getY() + 0.5, (double)bushyflowers$blockPos.getZ() + 0.5, SoundEvents.ITEM_BONE_MEAL_USE, SoundCategory.BLOCKS, 1.0F, 1.0F);
+            }
+
+            //particles
+            Random bushyflowers$random = bushyflowers$world.getRandom();
+            for(int i=0; i<10; i++) {
+                bushyflowers$world.addParticle(ParticleTypes.HAPPY_VILLAGER, (double) bushyflowers$blockPos.getX() + (bushyflowers$random.nextGaussian() * 0.25) + 0.5, (double) bushyflowers$blockPos.getY() + (bushyflowers$random.nextGaussian() * 0.25) + 0.5, (double) bushyflowers$blockPos.getZ() + (bushyflowers$random.nextGaussian() * 0.25) + 0.5, 0.0, 0.0, 0.0);
             }
         }
     }
