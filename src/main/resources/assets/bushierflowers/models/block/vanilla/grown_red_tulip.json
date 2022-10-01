@@ -1,5 +1,5 @@
 {
-  "parent": "bushierflowers:block/base/base_1",
+  "parent": "bushierflowers:block/base/type1/base_1",
   "textures": {
     "0": "minecraft:block/red_tulip",
     "particle": "minecraft:block/red_tulip"
