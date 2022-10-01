@@ -1,11 +1,8 @@
 {
 	"credit": "Made with Blockbench",
-	"texture_size": [16, 16],
 	"textures": {
-		"0": "block/air",
-		"particle": "block/air"
+		"0": "block/air"
 	},
-	"render_type": "cutout",
 	"elements": [
 		{
 			"from": [6.5, 0, 11.5],
@@ -138,6 +135,7 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"translation": [0, 3, 2],
@@ -158,9 +156,6 @@
 		"ground": {
 			"translation": [0, 2, 0],
 			"scale": [0.6, 0.6, 0.6]
-		},
-		"gui": {
-			"rotation": [0, 45, 0]
 		},
 		"head": {
 			"translation": [0, 14.5, 0]

@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class BushierFlowersMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		BushierFlowers.LOGGER.info("This line is printed by an example mod mixin!");
+		BushierFlowers.LOGGER.info("Initializing " + BushierFlowers.MOD_ID + " Mixins");
 	}
 }

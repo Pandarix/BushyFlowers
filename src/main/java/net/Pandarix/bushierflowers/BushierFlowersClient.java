@@ -9,5 +9,9 @@ public class BushierFlowersClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GROWN_POPPY, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GROWN_RED_TULIP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GROWN_ORANGE_TULIP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GROWN_PINK_TULIP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GROWN_WHITE_TULIP, RenderLayer.getCutout());
     }
 }

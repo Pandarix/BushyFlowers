@@ -1,7 +1,9 @@
 {
-  "item.bushierflowers.grown_poppy": "Grown Poppy",
-
   "block.bushierflowers.grown_poppy": "Grown Poppy",
+  "block.bushierflowers.grown_red_tulip": "Grown Red Tulip",
+  "block.bushierflowers.grown_orange_tulip": "Grown Orange Tulip",
+  "block.bushierflowers.grown_pink_tulip": "Grown Pink Tulip",
+  "block.bushierflowers.grown_white_tulip": "Grown White Tulip",
 
   "itemGroup.bushierflowers.bushier_flowers": "Bushier Flowers"
 }

@@ -4,6 +4,7 @@
   "package": "net.Pandarix.bushierflowers.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ModFlowerGrowHelper"
   ],
   "client": [
     "BushierFlowersMixin"
