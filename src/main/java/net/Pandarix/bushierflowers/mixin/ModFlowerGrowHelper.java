@@ -1,6 +1,7 @@
 package net.Pandarix.bushierflowers.mixin;
 
 
+import com.google.common.base.Suppliers;
 import net.Pandarix.bushierflowers.block.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -17,24 +18,25 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Supplier;
 
 @Mixin(BoneMealItem.class)
 public abstract class ModFlowerGrowHelper {
-    private static List<Block> validFlowers = Arrays.asList(Blocks.POPPY, Blocks.RED_TULIP, Blocks.ORANGE_TULIP, Blocks.PINK_TULIP, Blocks.WHITE_TULIP);
-    private static List<Block> grownFlowers = Arrays.asList(ModBlocks.GROWN_POPPY, ModBlocks.GROWN_RED_TULIP, ModBlocks.GROWN_ORANGE_TULIP, ModBlocks.GROWN_PINK_TULIP, ModBlocks.GROWN_WHITE_TULIP);
+    private static final List<Block> bushyflowers$validFlowers = Arrays.asList(Blocks.POPPY, Blocks.RED_TULIP, Blocks.ORANGE_TULIP, Blocks.PINK_TULIP, Blocks.WHITE_TULIP);
+    private final Supplier<List<Block>> bushyflowers$grownFlowers = Suppliers.memoize(() -> List.of(ModBlocks.GROWN_POPPY, ModBlocks.GROWN_RED_TULIP, ModBlocks.GROWN_ORANGE_TULIP, ModBlocks.GROWN_PINK_TULIP, ModBlocks.GROWN_WHITE_TULIP));
 
     //injecting this method into the Bonemeal Blockinteraction
     @Inject(method = "useOnBlock", at = @At("HEAD"))
     protected void injectWriteMethod(ItemUsageContext context, CallbackInfoReturnable info) {
         //testing if the clicked Block is a Block our mod will want to replace
-        if (validFlowers.contains(context.getWorld().getBlockState(context.getBlockPos()).getBlock())) {
+        if (bushyflowers$validFlowers.contains(context.getWorld().getBlockState(context.getBlockPos()).getBlock())) {
             World world = context.getWorld();
             //only execute if we are on Server Level to prevent syncing issues
             if (!world.isClient()) {
                 BlockPos blockPos = context.getBlockPos(); //position of targeted Block
 
                 //getting the grown flower block that corresponds to the flower in question
-                Block correspondingFlower = grownFlowers.get(validFlowers.indexOf(world.getBlockState(blockPos).getBlock()));
+                Block correspondingFlower = bushyflowers$grownFlowers.get().get(bushyflowers$validFlowers.indexOf(world.getBlockState(blockPos).getBlock()));
                 //replacing the Vanilla flower with our custom Mod variant
                 world.setBlockState(blockPos, correspondingFlower.getDefaultState());
                 //additional Sounds and Particles
