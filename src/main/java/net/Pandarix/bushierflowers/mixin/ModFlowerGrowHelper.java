@@ -33,15 +33,15 @@ public abstract class ModFlowerGrowHelper {
             World world = context.getWorld();
             //only execute if we are on Server Level to prevent syncing issues
             if (!world.isClient()) {
-                BlockPos blockPos = context.getBlockPos(); //position of targeted Block
+                BlockPos bushyflowers$blockPos = context.getBlockPos(); //position of targeted Block
 
                 //getting the grown flower block that corresponds to the flower in question
-                Block correspondingFlower = bushyflowers$grownFlowers.get().get(bushyflowers$validFlowers.indexOf(world.getBlockState(blockPos).getBlock()));
+                Block bushyflowers$correspondingFlower = bushyflowers$grownFlowers.get().get(bushyflowers$validFlowers.indexOf(world.getBlockState(bushyflowers$blockPos).getBlock()));
                 //replacing the Vanilla flower with our custom Mod variant
-                world.setBlockState(blockPos, correspondingFlower.getDefaultState());
+                world.setBlockState(bushyflowers$blockPos, bushyflowers$correspondingFlower.getDefaultState());
                 //additional Sounds and Particles
-                world.playSound(null, (double)blockPos.getX() + 0.5, (double)blockPos.getY() + 0.5, (double)blockPos.getZ() + 0.5, SoundEvents.ITEM_BONE_MEAL_USE, SoundCategory.BLOCKS, 1.0F, 1.0F);
-                world.addParticle(ParticleTypes.HAPPY_VILLAGER, (double)blockPos.getX() + 0.5, (double)blockPos.getY() + 0.5, (double)blockPos.getZ() + 0.5, 0.0, 0.0, 0.0);
+                world.playSound(null, (double)bushyflowers$blockPos.getX() + 0.5, (double)bushyflowers$blockPos.getY() + 0.5, (double)bushyflowers$blockPos.getZ() + 0.5, SoundEvents.ITEM_BONE_MEAL_USE, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                world.addParticle(ParticleTypes.HAPPY_VILLAGER, (double)bushyflowers$blockPos.getX() + 0.5, (double)bushyflowers$blockPos.getY() + 0.5, (double)bushyflowers$blockPos.getZ() + 0.5, 0.0, 0.0, 0.0);
             }
         }
     }
