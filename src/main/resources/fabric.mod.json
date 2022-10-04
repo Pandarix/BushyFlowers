@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Bushier Flowers",
-  "description": "Bushier Flowers.",
+  "description": "Bonemealing flowers grows them into multiple inside of one block. Allows duplication like double tall flowers do.",
   "authors": [
     "Pandarix"
   ],
