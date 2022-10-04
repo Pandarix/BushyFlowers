@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bushierflowers:grown_dandelion"
+    }
+  ],
+  "result": {
+    "item": "minecraft:yellow_dye",
+    "count": 2
+  },
+  "group": "yellow_dye"
+}

@@ -1,3 +1,8 @@
 {
-  "parent": "bushierflowers:block/vanilla/azure_bluet/grown_azure_bluet_1"
+  "parent": "bushierflowers:item/base_item_model_1",
+  "textures": {
+    "0": "minecraft:block/azure_bluet",
+    "particle": "minecraft:block/azure_bluet"
+  },
+  "render_type": "cutout"
 }

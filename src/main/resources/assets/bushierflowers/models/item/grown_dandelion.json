@@ -1,3 +1,8 @@
 {
-  "parent": "bushierflowers:block/vanilla/dandelion/grown_dandelion_1"
+  "parent": "bushierflowers:item/base_item_model_2",
+  "textures": {
+    "0": "minecraft:block/dandelion",
+    "particle": "minecraft:block/dandelion"
+  },
+  "render_type": "cutout"
 }

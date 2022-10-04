@@ -1,3 +1,8 @@
 {
-  "parent": "bushierflowers:block/vanilla/cornflower/grown_cornflower_1"
+  "parent": "bushierflowers:item/base_item_model_2",
+  "textures": {
+    "0": "minecraft:block/cornflower",
+    "particle": "minecraft:block/cornflower"
+  },
+  "render_type": "cutout"
 }

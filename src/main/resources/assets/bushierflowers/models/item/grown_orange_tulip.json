@@ -1,3 +1,8 @@
 {
-  "parent": "bushierflowers:block/vanilla/orange_tulip/grown_orange_tulip_1"
+  "parent": "bushierflowers:item/base_item_model_1",
+  "textures": {
+    "0": "minecraft:block/orange_tulip",
+    "particle": "minecraft:block/orange_tulip"
+  },
+  "render_type": "cutout"
 }
