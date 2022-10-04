@@ -47,6 +47,7 @@ public abstract class ModFlowerGrowHelper {
                 bushyflowers$world.setBlockState(bushyflowers$blockPos, bushyflowers$correspondingFlower.getDefaultState());
                 //additional Sounds and Particles
                 bushyflowers$world.playSound(null, (double)bushyflowers$blockPos.getX() + 0.5, (double)bushyflowers$blockPos.getY() + 0.5, (double)bushyflowers$blockPos.getZ() + 0.5, SoundEvents.ITEM_BONE_MEAL_USE, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                context.getStack().decrement(1);
             }
             //particles
             Random bushyflowers$random = bushyflowers$world.getRandom();
@@ -66,6 +67,7 @@ public abstract class ModFlowerGrowHelper {
                 bushyflowers$world.emitGameEvent((Entity) null, GameEvent.ENTITY_PLACE, bushyflowers$blockPos);
                 //additional Sounds and Particles
                 bushyflowers$world.playSound(null, (double)bushyflowers$blockPos.getX() + 0.5, (double)bushyflowers$blockPos.getY() + 0.5, (double)bushyflowers$blockPos.getZ() + 0.5, SoundEvents.ITEM_BONE_MEAL_USE, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                context.getStack().decrement(1);
             }
             //particles
             Random bushyflowers$random = bushyflowers$world.getRandom();
