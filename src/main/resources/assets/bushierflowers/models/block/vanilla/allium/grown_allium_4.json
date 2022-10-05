@@ -1,0 +1,8 @@
+{
+  "parent": "bushierflowers:block/base/type1/base_4",
+  "textures": {
+    "0": "minecraft:block/allium",
+    "particle": "minecraft:block/allium"
+  },
+  "render_type": "cutout"
+}

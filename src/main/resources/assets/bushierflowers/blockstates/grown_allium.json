@@ -9,6 +9,12 @@
       },
       {
         "model": "bushierflowers:block/vanilla/allium/grown_allium_3"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/allium/grown_allium_4"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/allium/grown_allium_5"
       }
     ]
   }

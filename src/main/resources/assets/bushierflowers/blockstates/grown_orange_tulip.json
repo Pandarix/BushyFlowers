@@ -9,6 +9,12 @@
       },
       {
         "model": "bushierflowers:block/vanilla/orange_tulip/grown_orange_tulip_3"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/orange_tulip/grown_orange_tulip_4"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/orange_tulip/grown_orange_tulip_5"
       }
     ]
   }

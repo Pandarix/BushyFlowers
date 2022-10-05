@@ -9,6 +9,12 @@
       },
       {
         "model": "bushierflowers:block/vanilla/wither_rose/grown_wither_rose_3"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/wither_rose/grown_wither_rose_4"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/wither_rose/grown_wither_rose_5"
       }
     ]
   }

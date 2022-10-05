@@ -9,6 +9,12 @@
       },
       {
         "model": "bushierflowers:block/vanilla/white_tulip/grown_white_tulip_3"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/white_tulip/grown_white_tulip_4"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/white_tulip/grown_white_tulip_5"
       }
     ]
   }

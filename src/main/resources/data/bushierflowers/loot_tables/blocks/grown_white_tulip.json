@@ -13,17 +13,30 @@
               "name": "bushierflowers:grown_white_tulip",
               "conditions": [
                 {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "enchantments": [
-                      {
-                        "enchantment": "minecraft:silk_touch",
-                        "levels": {
-                          "min": 1
-                        }
+                  "condition": "minecraft:alternative",
+                  "terms": [
+                    {
+                      "condition": "minecraft:match_tool",
+                      "pwhiteicate": {
+                        "items": [
+                          "minecraft:shears"
+                        ]
                       }
-                    ]
-                  }
+                    },
+                    {
+                      "condition": "minecraft:match_tool",
+                      "pwhiteicate": {
+                        "enchantments": [
+                          {
+                            "enchantment": "minecraft:silk_touch",
+                            "levels": {
+                              "min": 1
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
                 }
               ]
             },

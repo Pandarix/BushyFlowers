@@ -9,6 +9,12 @@
       },
       {
         "model": "bushierflowers:block/vanilla/cornflower/grown_cornflower_3"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/cornflower/grown_cornflower_4"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/cornflower/grown_cornflower_5"
       }
     ]
   }

@@ -9,6 +9,12 @@
       },
       {
         "model": "bushierflowers:block/vanilla/poppy/grown_poppy_3"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/poppy/grown_poppy_4"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/poppy/grown_poppy_5"
       }
     ]
   }

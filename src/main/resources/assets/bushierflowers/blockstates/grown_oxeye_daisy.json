@@ -9,6 +9,12 @@
       },
       {
         "model": "bushierflowers:block/vanilla/oxeye_daisy/grown_oxeye_daisy_3"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/oxeye_daisy/grown_oxeye_daisy_4"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/oxeye_daisy/grown_oxeye_daisy_5"
       }
     ]
   }

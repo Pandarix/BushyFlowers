@@ -9,6 +9,12 @@
       },
       {
         "model": "bushierflowers:block/vanilla/blue_orchid/grown_blue_orchid_3"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/blue_orchid/grown_blue_orchid_4"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/blue_orchid/grown_blue_orchid_5"
       }
     ]
   }

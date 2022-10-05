@@ -13,17 +13,30 @@
               "name": "bushierflowers:grown_oxeye_daisy",
               "conditions": [
                 {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "enchantments": [
-                      {
-                        "enchantment": "minecraft:silk_touch",
-                        "levels": {
-                          "min": 1
-                        }
+                  "condition": "minecraft:alternative",
+                  "terms": [
+                    {
+                      "condition": "minecraft:match_tool",
+                      "ppinkicate": {
+                        "items": [
+                          "minecraft:shears"
+                        ]
                       }
-                    ]
-                  }
+                    },
+                    {
+                      "condition": "minecraft:match_tool",
+                      "ppinkicate": {
+                        "enchantments": [
+                          {
+                            "enchantment": "minecraft:silk_touch",
+                            "levels": {
+                              "min": 1
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
                 }
               ]
             },

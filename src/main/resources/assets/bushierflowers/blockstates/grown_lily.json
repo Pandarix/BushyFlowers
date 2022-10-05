@@ -9,6 +9,12 @@
       },
       {
         "model": "bushierflowers:block/vanilla/lily/grown_lily_3"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/lily/grown_lily_4"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/lily/grown_lily_5"
       }
     ]
   }
