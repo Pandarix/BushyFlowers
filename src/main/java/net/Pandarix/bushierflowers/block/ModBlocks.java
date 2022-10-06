@@ -29,7 +29,7 @@ public class ModBlocks {
     public static final Block GROWN_CORNFLOWER = registerBlock("grown_cornflower", new GrowableFlower(StatusEffects.JUMP_BOOST, 9,FabricBlockSettings.copy(Blocks.CORNFLOWER)), ModItemGroup.BUSHIER_FLOWERS);
     public static final Block GROWN_DANDELION = registerBlock("grown_dandelion", new GrowableFlower(StatusEffects.SATURATION, 1,FabricBlockSettings.copy(Blocks.DANDELION)), ModItemGroup.BUSHIER_FLOWERS);
     public static final Block GROWN_ALLIUM = registerBlock("grown_allium", new GrowableFlower(StatusEffects.FIRE_RESISTANCE, 8,FabricBlockSettings.copy(Blocks.ALLIUM)), ModItemGroup.BUSHIER_FLOWERS);
-    public static final Block GROWN_WITHER_ROSE = registerBlock("grown_wither_rose", new GrowableFlower(StatusEffects.WITHER, 11,FabricBlockSettings.copy(Blocks.WITHER_ROSE)), ModItemGroup.BUSHIER_FLOWERS);
+    public static final Block GROWN_WITHER_ROSE = registerBlock("grown_wither_rose", new GrowableWitherRose(FabricBlockSettings.copy(Blocks.WITHER_ROSE)), ModItemGroup.BUSHIER_FLOWERS);
     public static final Block GROWN_LILY = registerBlock("grown_lily", new GrowableFlower(StatusEffects.POISON, 15 , FabricBlockSettings.copy(Blocks.LILY_OF_THE_VALLEY)), ModItemGroup.BUSHIER_FLOWERS);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
