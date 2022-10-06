@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "bushierflowers:grown_poppy",
+    "bushierflowers:grown_red_tulip",
+    "bushierflowers:grown_orange_tulip",
+    "bushierflowers:grown_pink_tulip",
+    "bushierflowers:grown_white_tulip",
+    "bushierflowers:grown_azure_bluet",
+    "bushierflowers:grown_oxeye_daisy",
+    "bushierflowers:grown_blue_orchid",
+    "bushierflowers:grown_cornflower",
+    "bushierflowers:grown_dandelion",
+    "bushierflowers:grown_allium",
+    "bushierflowers:grown_wither_rose",
+    "bushierflowers:grown_lily"
+  ]
+}

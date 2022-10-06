@@ -17,7 +17,7 @@
                   "terms": [
                     {
                       "condition": "minecraft:match_tool",
-                      "ppinkicate": {
+                      "predicate": {
                         "items": [
                           "minecraft:shears"
                         ]
@@ -25,7 +25,7 @@
                     },
                     {
                       "condition": "minecraft:match_tool",
-                      "ppinkicate": {
+                      "predicate": {
                         "enchantments": [
                           {
                             "enchantment": "minecraft:silk_touch",
