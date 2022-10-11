@@ -13,5 +13,19 @@
   "block.bushierflowers.grown_wither_rose": "Wither Roses",
   "block.bushierflowers.grown_lily": "Lilies",
 
+  "block.bushierflowers.potted_grown_poppy": "Potted Poppies",
+  "block.bushierflowers.potted_grown_red_tulip": "Potted Red Tulips",
+  "block.bushierflowers.potted_grown_orange_tulip": "Potted Orange Tulips",
+  "block.bushierflowers.potted_grown_pink_tulip": "Potted Pink Tulips",
+  "block.bushierflowers.potted_grown_white_tulip": "Potted White Tulips",
+  "block.bushierflowers.potted_grown_azure_bluet": "Potted Azure Bluets",
+  "block.bushierflowers.potted_grown_oxeye_daisy": "Potted Oxeye Daisies",
+  "block.bushierflowers.potted_grown_blue_orchid": "Potted Blue Orchids",
+  "block.bushierflowers.potted_grown_cornflower": "Potted Cornflowers",
+  "block.bushierflowers.potted_grown_dandelion": "Potted Dandelions",
+  "block.bushierflowers.potted_grown_allium": "Potted Alliums",
+  "block.bushierflowers.potted_grown_wither_rose": "Potted Wither Roses",
+  "block.bushierflowers.potted_grown_lily": "Potted Lilies",
+
   "itemGroup.bushierflowers.bushier_flowers": "Bushier Flowers"
 }
