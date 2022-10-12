@@ -8,5 +8,5 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
-    public static final ItemGroup BUSHIER_FLOWERS = FabricItemGroupBuilder.build(new Identifier(BushierFlowers.MOD_ID, "bushier_flowers"), () -> new ItemStack(ModBlocks.GROWN_RED_TULIP.asItem()));
+    public static final ItemGroup BUSHIER_FLOWERS = FabricItemGroupBuilder.build(new Identifier(BushierFlowers.MOD_ID, "bushier_flowers"), () -> new ItemStack(ModBlocks.GROWN_ALLIUM.asItem()));
 }
