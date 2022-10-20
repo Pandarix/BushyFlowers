@@ -1,0 +1,31 @@
+{
+  "block.bushierflowers.grown_poppy": "ポピーの花束",
+  "block.bushierflowers.grown_red_tulip": "赤色のチューリップの花束",
+  "block.bushierflowers.grown_orange_tulip": "橙色のチューリップの花束",
+  "block.bushierflowers.grown_pink_tulip": "桃色のチューリップの花束",
+  "block.bushierflowers.grown_white_tulip": "白色のチューリップの花束",
+  "block.bushierflowers.grown_azure_bluet": "ヒナソウの花束",
+  "block.bushierflowers.grown_oxeye_daisy": "フランスギクの花束",
+  "block.bushierflowers.grown_blue_orchid": "ヒスイランの花束",
+  "block.bushierflowers.grown_cornflower": "ヤグルマギクの花束",
+  "block.bushierflowers.grown_dandelion": "タンポポの花束",
+  "block.bushierflowers.grown_allium": "アリウムの花束",
+  "block.bushierflowers.grown_wither_rose": "ウィザーローズの花束",
+  "block.bushierflowers.grown_lily": "スズランの花束",
+
+  "block.bushierflowers.potted_grown_poppy": "植えられたポピーの花束",
+  "block.bushierflowers.potted_grown_red_tulip": "植えられた赤色のチューリップの花束",
+  "block.bushierflowers.potted_grown_orange_tulip": "植えられた橙色のチューリップの花束",
+  "block.bushierflowers.potted_grown_pink_tulip": "植えられた桃色のチューリップの花束",
+  "block.bushierflowers.potted_grown_white_tulip": "植えられた白色のチューリップの花束",
+  "block.bushierflowers.potted_grown_azure_bluet": "植えられたヒナソウの花束",
+  "block.bushierflowers.potted_grown_oxeye_daisy": "植えられたフランスギクの花束",
+  "block.bushierflowers.potted_grown_blue_orchid": "植えられたヒスイランの花束",
+  "block.bushierflowers.potted_grown_cornflower": "植えられたヤグルマギクの花束",
+  "block.bushierflowers.potted_grown_dandelion": "植えられたタンポポの花束",
+  "block.bushierflowers.potted_grown_allium": "植えられたアリウムの花束",
+  "block.bushierflowers.potted_grown_wither_rose": "植えられたウィザーローズの花束",
+  "block.bushierflowers.potted_grown_lily": "植えられたスズランの花束",
+
+  "itemGroup.bushierflowers.bushier_flowers": "Bushier Flowers"
+}
