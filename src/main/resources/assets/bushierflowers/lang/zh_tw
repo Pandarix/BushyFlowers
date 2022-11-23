@@ -1,0 +1,31 @@
+{
+  "block.bushierflowers.grown_poppy": "罌粟",
+  "block.bushierflowers.grown_red_tulip": "紅色鬱金香",
+  "block.bushierflowers.grown_orange_tulip": "橙色鬱金香",
+  "block.bushierflowers.grown_pink_tulip": "粉色鬱金香",
+  "block.bushierflowers.grown_white_tulip": "白色鬱金香",
+  "block.bushierflowers.grown_azure_bluet": "雛草",
+  "block.bushierflowers.grown_oxeye_daisy": "雛菊",
+  "block.bushierflowers.grown_blue_orchid": "藍色蝴蝶蘭",
+  "block.bushierflowers.grown_cornflower": "矢車菊",
+  "block.bushierflowers.grown_dandelion": "蒲公英",
+  "block.bushierflowers.grown_allium": "紫紅球花",
+  "block.bushierflowers.grown_wither_rose": "凋零玫瑰",
+  "block.bushierflowers.grown_lily": "鈴蘭",
+
+  "block.bushierflowers.potted_grown_poppy": "罌粟盆栽",
+  "block.bushierflowers.potted_grown_red_tulip": "紅色鬱金香盆栽",
+  "block.bushierflowers.potted_grown_orange_tulip": "橙色鬱金香盆栽",
+  "block.bushierflowers.potted_grown_pink_tulip": "粉色鬱金香盆栽",
+  "block.bushierflowers.potted_grown_white_tulip": "白色鬱金香盆栽",
+  "block.bushierflowers.potted_grown_azure_bluet": "雛草盆栽",
+  "block.bushierflowers.potted_grown_oxeye_daisy": "雛菊盆栽",
+  "block.bushierflowers.potted_grown_blue_orchid": "藍色蝴蝶蘭盆栽",
+  "block.bushierflowers.potted_grown_cornflower": "矢車菊盆栽",
+  "block.bushierflowers.potted_grown_dandelion": "蒲公英盆栽",
+  "block.bushierflowers.potted_grown_allium": "紫紅球花盆栽",
+  "block.bushierflowers.potted_grown_wither_rose": "凋零玫瑰盆栽",
+  "block.bushierflowers.potted_grown_lily": "鈴蘭盆栽",
+
+  "itemGroup.bushier_flowers": "Bushier Flowers"
+}
