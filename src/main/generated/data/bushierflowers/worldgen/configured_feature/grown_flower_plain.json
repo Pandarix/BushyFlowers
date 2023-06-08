@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:noise_threshold_provider",
+            "default_state": {
+              "Name": "bushierflowers:grown_dandelion"
+            },
+            "high_chance": 0.33333334,
+            "high_states": [
+              {
+                "Name": "bushierflowers:grown_poppy"
+              },
+              {
+                "Name": "bushierflowers:grown_azure_bluet"
+              },
+              {
+                "Name": "bushierflowers:grown_oxeye_daisy"
+              },
+              {
+                "Name": "bushierflowers:grown_cornflower"
+              }
+            ],
+            "low_states": [
+              {
+                "Name": "bushierflowers:grown_orange_tulip"
+              },
+              {
+                "Name": "bushierflowers:grown_red_tulip"
+              },
+              {
+                "Name": "bushierflowers:grown_pink_tulip"
+              },
+              {
+                "Name": "bushierflowers:grown_white_tulip"
+              }
+            ],
+            "noise": {
+              "amplitudes": [
+                1.0,
+                0.0
+              ],
+              "firstOctave": 0
+            },
+            "scale": 0.005,
+            "seed": 2345,
+            "threshold": -0.8
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "tries": 96,
+    "xz_spread": 4,
+    "y_spread": 2
+  }
+}

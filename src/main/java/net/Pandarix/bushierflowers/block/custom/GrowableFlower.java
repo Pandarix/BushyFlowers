@@ -1,15 +1,13 @@
 package net.Pandarix.bushierflowers.block.custom;
 
-import net.minecraft.block.*;
-import net.minecraft.entity.ai.pathing.NavigationType;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.FlowerBlock;
+import net.minecraft.block.ShapeContext;
 import net.minecraft.entity.effect.StatusEffect;
-import net.minecraft.tag.BlockTags;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
-import net.minecraft.world.WorldAccess;
-import net.minecraft.world.WorldView;
 
 public class GrowableFlower extends FlowerBlock {
     /*

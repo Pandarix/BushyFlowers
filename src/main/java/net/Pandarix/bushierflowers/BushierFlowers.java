@@ -1,7 +1,7 @@
 package net.Pandarix.bushierflowers;
 
 import net.Pandarix.bushierflowers.block.ModBlocks;
-import net.Pandarix.bushierflowers.item.ModItems;
+import net.Pandarix.bushierflowers.item.ModItemGroup;
 import net.Pandarix.bushierflowers.util.ModDispenserBehaviour;
 import net.Pandarix.bushierflowers.world.feature.ModConfiguredFeatures;
 import net.Pandarix.bushierflowers.world.gen.ModWorldGen;
@@ -15,9 +15,8 @@ public class BushierFlowers implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        ModItemGroup.registerTab();
         ModBlocks.registerModBlocks();
-        ModItems.registerModItems();
-        ModConfiguredFeatures.registerConfiguredFeatures();
         ModWorldGen.generateModWorldGen();
         ModDispenserBehaviour.registerDispenserBehaviour();
     }

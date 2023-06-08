@@ -23,6 +23,9 @@
     ],
     "client": [
       "net.Pandarix.bushierflowers.BushierFlowersClient"
+    ],
+    "fabric-datagen": [
+      "net.Pandarix.bushierflowers.BushierFlowersDataGenerator"
     ]
   },
   "mixins": [
