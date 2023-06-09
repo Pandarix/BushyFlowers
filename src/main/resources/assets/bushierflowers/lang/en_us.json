@@ -12,6 +12,7 @@
   "block.bushierflowers.grown_allium": "Alliums",
   "block.bushierflowers.grown_wither_rose": "Wither Roses",
   "block.bushierflowers.grown_lily": "Lilies",
+  "block.bushierflowers.grown_torchflower": "Torchflowers",
 
   "block.bushierflowers.potted_grown_poppy": "Potted Poppies",
   "block.bushierflowers.potted_grown_red_tulip": "Potted Red Tulips",
@@ -26,6 +27,7 @@
   "block.bushierflowers.potted_grown_allium": "Potted Alliums",
   "block.bushierflowers.potted_grown_wither_rose": "Potted Wither Roses",
   "block.bushierflowers.potted_grown_lily": "Potted Lilies",
+  "block.bushierflowers.potted_grown_torchflower": "Potted Torchflowers",
 
-  "itemGroup.bushier_flowers": "Bushier Flowers"
+  "itemGroup.bushierflowers": "Bushier Flowers"
 }

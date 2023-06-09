@@ -16,6 +16,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.Identifier;
 
 
@@ -48,6 +49,8 @@ public class ModBlocks {
 
     public static final Block GROWN_LILY = registerBlock("grown_lily", new GrowableFlower(StatusEffects.POISON, 15, FabricBlockSettings.copy(Blocks.LILY_OF_THE_VALLEY)), ModItemGroup.BUSHIER_FLOWERS);
 
+    public static final Block GROWN_TORCHFLOWER = registerBlock("grown_torchflower", new GrowableFlower(StatusEffects.RESISTANCE, 8, FabricBlockSettings.copy(Blocks.TORCHFLOWER)), ModItemGroup.BUSHIER_FLOWERS);
+
 
     //POTTED FLOWERS----------------------------------------------------------------------------------------------------
     public static final Block POTTED_GROWN_POPPY = registerBlockWithoutItem("potted_grown_poppy", new FlowerPotBlock(ModBlocks.GROWN_POPPY, FabricBlockSettings.copy(Blocks.POTTED_POPPY)));
@@ -76,14 +79,16 @@ public class ModBlocks {
 
     public static final Block POTTED_GROWN_LILY = registerBlockWithoutItem("potted_grown_lily", new FlowerPotBlock(ModBlocks.GROWN_LILY, FabricBlockSettings.copy(Blocks.POTTED_LILY_OF_THE_VALLEY)));
 
+    public static final Block POTTED_GROWN_TORCHFLOWER = registerBlockWithoutItem("potted_grown_torchflower", new FlowerPotBlock(ModBlocks.GROWN_TORCHFLOWER, FabricBlockSettings.copy(Blocks.POTTED_TORCHFLOWER)));
+
 
     //REGISTRY----------------------------------------------------------------------------------------------------------
-    private static Block registerBlock(String name, Block block, ItemGroup tab) {
+    private static Block registerBlock(String name, Block block, RegistryKey<ItemGroup> tab) {
         registerBlockItem(name, block, tab);
         return Registry.register(Registries.BLOCK, new Identifier(BushierFlowers.MOD_ID, name), block);
     }
 
-    private static Item registerBlockItem(String name, Block block, ItemGroup tab) {
+    private static Item registerBlockItem(String name, Block block, RegistryKey<ItemGroup> tab) {
         Item item = Registry.register(Registries.ITEM, new Identifier(BushierFlowers.MOD_ID, name), new BlockItem(block, new FabricItemSettings()));
 
         ItemGroupEvents.modifyEntriesEvent(tab).register(entries -> entries.add(item));

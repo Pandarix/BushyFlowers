@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "bushierflowers:block/vanilla/torchflower/grown_torchflower_1"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/torchflower/grown_torchflower_2"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/torchflower/grown_torchflower_3"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/torchflower/grown_torchflower_4"
+      },
+      {
+        "model": "bushierflowers:block/vanilla/torchflower/grown_torchflower_5"
+      }
+    ]
+  }
+}

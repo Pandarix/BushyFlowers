@@ -23,6 +23,7 @@ public class BushierFlowersClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GROWN_ALLIUM, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GROWN_WITHER_ROSE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GROWN_LILY, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GROWN_TORCHFLOWER, RenderLayer.getCutout());
 
         //POTTED FLOWERS------------------------------------------------------------------------------------------------
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_GROWN_POPPY, RenderLayer.getCutout());
@@ -38,6 +39,7 @@ public class BushierFlowersClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_GROWN_ALLIUM, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_GROWN_WITHER_ROSE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_GROWN_LILY, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_GROWN_TORCHFLOWER, RenderLayer.getCutout());
 
     }
 }

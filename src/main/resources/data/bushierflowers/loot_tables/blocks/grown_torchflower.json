@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "bushierflowers:grown_poppy",
+              "name": "bushierflowers:grown_torchflower",
               "conditions": [
                 {
                   "condition": "minecraft:any_of",
@@ -39,7 +39,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:poppy",
+              "name": "minecraft:torchflower",
               "functions": [
                 {
                   "function": "minecraft:set_count",

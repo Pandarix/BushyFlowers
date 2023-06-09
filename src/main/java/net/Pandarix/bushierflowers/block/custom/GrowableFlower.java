@@ -33,6 +33,9 @@ public class GrowableFlower extends FlowerBlock {
     public boolean isShapeFullCube(BlockState state, BlockView world, BlockPos pos) {return false;}
 
     //---------------------------Additional settings---------------------------
+
     @Override
-    public boolean canMobSpawnInside() {return true;}
+    public boolean canMobSpawnInside(BlockState state) {
+        return true;
+    }
 }
