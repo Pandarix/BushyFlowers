@@ -28,7 +28,8 @@
   ],
   "rewards": {
     "recipes": [
-      "bushierflowers:red_dye_from_grown_red_tulip"
+      "bushierflowers:red_dye_from_grown_red_tulip",
+      "bushierflowers:grown_red_tulip_from_flowers"
     ]
   }
 }

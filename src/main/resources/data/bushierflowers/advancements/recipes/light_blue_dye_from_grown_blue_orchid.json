@@ -28,7 +28,8 @@
   ],
   "rewards": {
     "recipes": [
-      "bushierflowers:light_blue_dye_from_grown_blue_orchid"
+      "bushierflowers:light_blue_dye_from_grown_blue_orchid",
+      "bushierflowers:grown_blue_orchid_from_flowers"
     ]
   }
 }

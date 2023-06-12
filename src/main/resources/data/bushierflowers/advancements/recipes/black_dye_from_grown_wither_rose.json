@@ -28,7 +28,8 @@
   ],
   "rewards": {
     "recipes": [
-      "bushierflowers:black_dye_from_grown_wither_rose"
+      "bushierflowers:black_dye_from_grown_wither_rose",
+      "bushierflowers:grown_wither_rose_from_flowers"
     ]
   }
 }

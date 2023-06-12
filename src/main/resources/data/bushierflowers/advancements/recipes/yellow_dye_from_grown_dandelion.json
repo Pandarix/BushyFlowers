@@ -28,7 +28,8 @@
   ],
   "rewards": {
     "recipes": [
-      "bushierflowers:yellow_dye_from_grown_dandelion"
+      "bushierflowers:yellow_dye_from_grown_dandelion",
+      "bushierflowers:grown_dandelion_from_flowers"
     ]
   }
 }

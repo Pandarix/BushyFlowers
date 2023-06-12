@@ -28,7 +28,8 @@
   ],
   "rewards": {
     "recipes": [
-      "bushierflowers:red_dye_from_grown_poppy"
+      "bushierflowers:red_dye_from_grown_poppy",
+      "bushierflowers:grown_poppy_from_flowers"
     ]
   }
 }

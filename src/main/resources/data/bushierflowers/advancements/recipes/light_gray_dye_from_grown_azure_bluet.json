@@ -28,7 +28,8 @@
   ],
   "rewards": {
     "recipes": [
-      "bushierflowers:light_gray_dye_from_grown_azure_bluet"
+      "bushierflowers:light_gray_dye_from_grown_azure_bluet",
+      "bushierflowers:grown_azure_bluet_from_flowers"
     ]
   }
 }

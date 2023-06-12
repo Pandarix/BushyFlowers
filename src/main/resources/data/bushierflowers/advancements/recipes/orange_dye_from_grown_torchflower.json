@@ -28,7 +28,8 @@
   ],
   "rewards": {
     "recipes": [
-      "bushierflowers:orange_dye_from_grown_torchflower"
+      "bushierflowers:orange_dye_from_grown_torchflower",
+      "bushierflowers:grown_torchflower_from_flowers"
     ]
   }
 }

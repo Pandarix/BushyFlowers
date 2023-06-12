@@ -28,7 +28,8 @@
   ],
   "rewards": {
     "recipes": [
-      "bushierflowers:light_gray_dye_from_grown_oxeye_daisy"
+      "bushierflowers:light_gray_dye_from_grown_oxeye_daisy",
+      "bushierflowers:grown_oxeye_daisy_from_flowers"
     ]
   }
 }

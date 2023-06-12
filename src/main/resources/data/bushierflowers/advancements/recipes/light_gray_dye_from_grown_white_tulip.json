@@ -28,7 +28,8 @@
   ],
   "rewards": {
     "recipes": [
-      "bushierflowers:light_gray_dye_from_grown_white_tulip"
+      "bushierflowers:light_gray_dye_from_grown_white_tulip",
+      "bushierflowers:grown_white_tulip_from_flowers"
     ]
   }
 }

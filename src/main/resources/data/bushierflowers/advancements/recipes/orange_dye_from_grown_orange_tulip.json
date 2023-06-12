@@ -28,7 +28,8 @@
   ],
   "rewards": {
     "recipes": [
-      "bushierflowers:orange_dye_from_grown_orange_tulip"
+      "bushierflowers:orange_dye_from_grown_orange_tulip",
+      "bushierflowers:grown_orange_tulip_from_flowers"
     ]
   }
 }

@@ -28,7 +28,8 @@
   ],
   "rewards": {
     "recipes": [
-      "bushierflowers:white_dye_from_grown_lily"
+      "bushierflowers:white_dye_from_grown_lily",
+      "bushierflowers:grown_lily_from_flowers"
     ]
   }
 }

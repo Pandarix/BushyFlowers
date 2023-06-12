@@ -28,7 +28,8 @@
   ],
   "rewards": {
     "recipes": [
-      "bushierflowers:magenta_dye_from_grown_allium"
+      "bushierflowers:magenta_dye_from_grown_allium",
+      "bushierflowers:grown_allium_from_flowers"
     ]
   }
 }

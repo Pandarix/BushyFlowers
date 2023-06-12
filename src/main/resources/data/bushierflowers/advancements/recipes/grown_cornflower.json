@@ -4,16 +4,16 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bushierflowers:blue_dye_from_grown_cornflower"
+        "recipe": "bushierflowers:grown_cornflower_from_flowers"
       }
     },
-    "has_grown_cornflower": {
+    "has_cornflower": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "bushierflowers:grown_cornflower"
+              "minecraft:cornflower"
             ]
           }
         ]
@@ -22,13 +22,12 @@
   },
   "requirements": [
     [
-      "has_grown_cornflower",
+      "has_cornflower",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "bushierflowers:blue_dye_from_grown_cornflower",
       "bushierflowers:grown_cornflower_from_flowers"
     ]
   }
