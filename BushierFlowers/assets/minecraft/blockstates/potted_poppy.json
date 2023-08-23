@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/vanilla/poppy/grown_poppy_potted"
+    }
+  }
+}

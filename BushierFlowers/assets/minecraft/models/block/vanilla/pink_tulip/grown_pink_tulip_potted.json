@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/base/type1/flower_pot_grown",
+  "textures": {
+    "0": "minecraft:block/pink_tulip",
+    "particle": "minecraft:block/pink_tulip"
+  },
+  "render_type": "cutout"
+}

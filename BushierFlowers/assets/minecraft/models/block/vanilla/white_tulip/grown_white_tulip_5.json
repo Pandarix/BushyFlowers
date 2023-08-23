@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/base/type1/base_5",
+  "textures": {
+    "0": "minecraft:block/white_tulip",
+    "particle": "minecraft:block/white_tulip"
+  },
+  "render_type": "cutout"
+}

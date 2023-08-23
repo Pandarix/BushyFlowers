@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/vanilla/torchflower/grown_torchflower_potted"
+    }
+  }
+}

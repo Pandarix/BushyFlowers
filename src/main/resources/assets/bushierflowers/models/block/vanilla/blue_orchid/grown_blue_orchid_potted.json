@@ -1,8 +1,0 @@
-{
-  "parent": "bushierflowers:block/base/type2/flower_pot_grown",
-  "textures": {
-    "0": "minecraft:block/blue_orchid",
-    "particle": "minecraft:block/blue_orchid"
-  },
-  "render_type": "cutout"
-}

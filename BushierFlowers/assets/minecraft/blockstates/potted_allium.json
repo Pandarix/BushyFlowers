@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/vanilla/allium/grown_allium_potted"
+    }
+  }
+}

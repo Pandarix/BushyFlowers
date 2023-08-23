@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/vanilla/allium/grown_allium_1"
+      },
+      {
+        "model": "minecraft:block/vanilla/allium/grown_allium_2"
+      },
+      {
+        "model": "minecraft:block/vanilla/allium/grown_allium_3"
+      },
+      {
+        "model": "minecraft:block/vanilla/allium/grown_allium_4"
+      },
+      {
+        "model": "minecraft:block/vanilla/allium/grown_allium_5"
+      }
+    ]
+  }
+}

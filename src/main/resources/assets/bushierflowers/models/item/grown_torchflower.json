@@ -1,8 +1,0 @@
-{
-  "parent": "bushierflowers:item/base_item_model_1",
-  "textures": {
-    "0": "minecraft:block/torchflower",
-    "particle": "minecraft:block/torchflower"
-  },
-  "render_type": "cutout"
-}

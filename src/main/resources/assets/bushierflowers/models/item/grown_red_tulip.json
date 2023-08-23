@@ -1,8 +1,0 @@
-{
-  "parent": "bushierflowers:item/base_item_model_1",
-  "textures": {
-    "0": "minecraft:block/red_tulip",
-    "particle": "minecraft:block/red_tulip"
-  },
-  "render_type": "cutout"
-}

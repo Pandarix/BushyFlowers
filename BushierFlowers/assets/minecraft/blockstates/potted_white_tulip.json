@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/vanilla/white_tulip/grown_white_tulip_potted"
+    }
+  }
+}

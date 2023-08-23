@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/vanilla/blue_orchid/grown_blue_orchid_potted"
+    }
+  }
+}

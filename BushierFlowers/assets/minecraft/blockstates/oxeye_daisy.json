@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/vanilla/oxeye_daisy/grown_oxeye_daisy_1"
+      },
+      {
+        "model": "minecraft:block/vanilla/oxeye_daisy/grown_oxeye_daisy_2"
+      },
+      {
+        "model": "minecraft:block/vanilla/oxeye_daisy/grown_oxeye_daisy_3"
+      },
+      {
+        "model": "minecraft:block/vanilla/oxeye_daisy/grown_oxeye_daisy_4"
+      },
+      {
+        "model": "minecraft:block/vanilla/oxeye_daisy/grown_oxeye_daisy_5"
+      }
+    ]
+  }
+}

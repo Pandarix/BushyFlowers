@@ -1,8 +1,0 @@
-{
-  "parent": "bushierflowers:item/base_item_model_1",
-  "textures": {
-    "0": "minecraft:block/oxeye_daisy",
-    "particle": "minecraft:block/oxeye_daisy"
-  },
-  "render_type": "cutout"
-}

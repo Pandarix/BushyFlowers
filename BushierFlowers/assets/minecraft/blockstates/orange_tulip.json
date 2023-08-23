@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/vanilla/orange_tulip/grown_orange_tulip_1"
+      },
+      {
+        "model": "minecraft:block/vanilla/orange_tulip/grown_orange_tulip_2"
+      },
+      {
+        "model": "minecraft:block/vanilla/orange_tulip/grown_orange_tulip_3"
+      },
+      {
+        "model": "minecraft:block/vanilla/orange_tulip/grown_orange_tulip_4"
+      },
+      {
+        "model": "minecraft:block/vanilla/orange_tulip/grown_orange_tulip_5"
+      }
+    ]
+  }
+}

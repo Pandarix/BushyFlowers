@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/vanilla/poppy/grown_poppy_1"
+      },
+      {
+        "model": "minecraft:block/vanilla/poppy/grown_poppy_2"
+      },
+      {
+        "model": "minecraft:block/vanilla/poppy/grown_poppy_3"
+      },
+      {
+        "model": "minecraft:block/vanilla/poppy/grown_poppy_4"
+      },
+      {
+        "model": "minecraft:block/vanilla/poppy/grown_poppy_5"
+      }
+    ]
+  }
+}

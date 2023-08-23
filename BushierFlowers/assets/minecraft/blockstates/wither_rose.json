@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/vanilla/wither_rose/grown_wither_rose_1"
+      },
+      {
+        "model": "minecraft:block/vanilla/wither_rose/grown_wither_rose_2"
+      },
+      {
+        "model": "minecraft:block/vanilla/wither_rose/grown_wither_rose_3"
+      },
+      {
+        "model": "minecraft:block/vanilla/wither_rose/grown_wither_rose_4"
+      },
+      {
+        "model": "minecraft:block/vanilla/wither_rose/grown_wither_rose_5"
+      }
+    ]
+  }
+}

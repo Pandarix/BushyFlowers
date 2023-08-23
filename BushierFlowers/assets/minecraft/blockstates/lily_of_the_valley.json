@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/vanilla/lily/grown_lily_1"
+      },
+      {
+        "model": "minecraft:block/vanilla/lily/grown_lily_2"
+      },
+      {
+        "model": "minecraft:block/vanilla/lily/grown_lily_3"
+      },
+      {
+        "model": "minecraft:block/vanilla/lily/grown_lily_4"
+      },
+      {
+        "model": "minecraft:block/vanilla/lily/grown_lily_5"
+      }
+    ]
+  }
+}

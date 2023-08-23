@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/vanilla/blue_orchid/grown_blue_orchid_1"
+      },
+      {
+        "model": "minecraft:block/vanilla/blue_orchid/grown_blue_orchid_2"
+      },
+      {
+        "model": "minecraft:block/vanilla/blue_orchid/grown_blue_orchid_3"
+      },
+      {
+        "model": "minecraft:block/vanilla/blue_orchid/grown_blue_orchid_4"
+      },
+      {
+        "model": "minecraft:block/vanilla/blue_orchid/grown_blue_orchid_5"
+      }
+    ]
+  }
+}
