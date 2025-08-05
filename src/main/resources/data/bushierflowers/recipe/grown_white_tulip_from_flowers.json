@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:white_tulip"
     },
     {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:white_tulip"
     }
   ],
   "result": {
-    "item": "bushierflowers:grown_dandelion",
+    "id": "bushierflowers:grown_white_tulip",
     "count": 1
   }
 }

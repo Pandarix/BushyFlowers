@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "bushierflowers:grown_dandelion"
+      "item": "bushierflowers:grown_oxeye_daisy"
     }
   ],
   "result": {
-    "item": "minecraft:yellow_dye",
+    "id": "minecraft:light_gray_dye",
     "count": 2
   },
-  "group": "yellow_dye"
+  "group": "light_gray_dye"
 }

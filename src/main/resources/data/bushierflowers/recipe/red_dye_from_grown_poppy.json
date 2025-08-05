@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "bushierflowers:grown_pink_tulip"
+      "item": "bushierflowers:grown_poppy"
     }
   ],
   "result": {
-    "item": "minecraft:pink_dye",
+    "id": "minecraft:red_dye",
     "count": 2
   },
-  "group": "pink_dye"
+  "group": "red_dye"
 }

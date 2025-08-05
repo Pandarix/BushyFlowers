@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cornflower"
+      "item": "minecraft:poppy"
     },
     {
-      "item": "minecraft:cornflower"
+      "item": "minecraft:poppy"
     }
   ],
   "result": {
-    "item": "bushierflowers:grown_cornflower",
+    "id": "bushierflowers:grown_poppy",
     "count": 1
   }
 }

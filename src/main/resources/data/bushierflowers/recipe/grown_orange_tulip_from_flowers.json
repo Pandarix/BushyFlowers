@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:oxeye_daisy"
+      "item": "minecraft:orange_tulip"
     },
     {
-      "item": "minecraft:oxeye_daisy"
+      "item": "minecraft:orange_tulip"
     }
   ],
   "result": {
-    "item": "bushierflowers:grown_oxeye_daisy",
+    "id": "bushierflowers:grown_orange_tulip",
     "count": 1
   }
 }

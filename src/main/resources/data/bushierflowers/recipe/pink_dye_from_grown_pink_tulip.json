@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "bushierflowers:grown_orange_tulip"
+      "item": "bushierflowers:grown_pink_tulip"
     }
   ],
   "result": {
-    "item": "minecraft:orange_dye",
+    "id": "minecraft:pink_dye",
     "count": 2
   },
-  "group": "orange_dye"
+  "group": "pink_dye"
 }

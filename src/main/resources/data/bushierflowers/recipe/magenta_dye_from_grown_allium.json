@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "bushierflowers:grown_torchflower"
+      "item": "bushierflowers:grown_allium"
     }
   ],
   "result": {
-    "item": "minecraft:orange_dye",
+    "id": "minecraft:magenta_dye",
     "count": 2
   },
-  "group": "orange_dye"
+  "group": "magenta_dye"
 }

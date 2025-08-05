@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:poppy"
+      "item": "minecraft:allium"
     },
     {
-      "item": "minecraft:poppy"
+      "item": "minecraft:allium"
     }
   ],
   "result": {
-    "item": "bushierflowers:grown_poppy",
+    "id": "bushierflowers:grown_allium",
     "count": 1
   }
 }

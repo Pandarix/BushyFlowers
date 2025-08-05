@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:pink_tulip"
+      "item": "minecraft:azure_bluet"
     },
     {
-      "item": "minecraft:pink_tulip"
+      "item": "minecraft:azure_bluet"
     }
   ],
   "result": {
-    "item": "bushierflowers:grown_pink_tulip",
+    "id": "bushierflowers:grown_azure_bluet",
     "count": 1
   }
 }

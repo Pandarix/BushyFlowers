@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:azure_bluet"
+      "item": "minecraft:oxeye_daisy"
     },
     {
-      "item": "minecraft:azure_bluet"
+      "item": "minecraft:oxeye_daisy"
     }
   ],
   "result": {
-    "item": "bushierflowers:grown_azure_bluet",
+    "id": "bushierflowers:grown_oxeye_daisy",
     "count": 1
   }
 }

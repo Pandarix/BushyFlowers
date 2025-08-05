@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "bushierflowers:grown_lily"
+      "item": "bushierflowers:grown_cornflower"
     }
   ],
   "result": {
-    "item": "minecraft:white_dye",
+    "id": "minecraft:blue_dye",
     "count": 2
   },
-  "group": "white_dye"
+  "group": "blue_dye"
 }

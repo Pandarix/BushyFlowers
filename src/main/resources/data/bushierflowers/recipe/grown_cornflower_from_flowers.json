@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:cornflower"
     },
     {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:cornflower"
     }
   ],
   "result": {
-    "item": "bushierflowers:grown_white_tulip",
+    "id": "bushierflowers:grown_cornflower",
     "count": 1
   }
 }

@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_orchid"
+      "item": "minecraft:pink_tulip"
     },
     {
-      "item": "minecraft:blue_orchid"
+      "item": "minecraft:pink_tulip"
     }
   ],
   "result": {
-    "item": "bushierflowers:grown_blue_orchid",
+    "id": "bushierflowers:grown_pink_tulip",
     "count": 1
   }
 }

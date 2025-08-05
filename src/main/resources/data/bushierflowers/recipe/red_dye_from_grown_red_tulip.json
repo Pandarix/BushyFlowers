@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "bushierflowers:grown_allium"
+      "item": "bushierflowers:grown_red_tulip"
     }
   ],
   "result": {
-    "item": "minecraft:magenta_dye",
+    "id": "minecraft:red_dye",
     "count": 2
   },
-  "group": "magenta_dye"
+  "group": "red_dye"
 }

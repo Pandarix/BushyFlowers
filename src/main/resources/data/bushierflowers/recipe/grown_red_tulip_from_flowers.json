@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:wither_rose"
+      "item": "minecraft:red_tulip"
     },
     {
-      "item": "minecraft:wither_rose"
+      "item": "minecraft:red_tulip"
     }
   ],
   "result": {
-    "item": "bushierflowers:grown_wither_rose",
+    "id": "bushierflowers:grown_red_tulip",
     "count": 1
   }
 }
